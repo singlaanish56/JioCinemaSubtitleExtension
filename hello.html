@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtitle Increase</title>
+</head>
+<body>
+    <h2>Subtitle Increase</h2>
+
+    <div>
+        <label for="font-color">Choose a Color</label>
+        <select name="font-color" id="font-color">
+            <option value="white">White</option>
+            <option value="Black">Black</option>
+            <option value="Grey">Grey</option>
+            <option value="Blue">Blue</option>
+            <option value="Red">Red</option>
+        </select>
+    </div>
+
+    <div class="font-size-slider">
+        <label for="font-size">Font Size</label>
+        <input type="range" min="20" max="60" value="35" step="2" id="font-size">
+    </div>
+    <div class="font-weight-slider">
+        <label for="font-weight">Font Weight</label>
+        <input type="range" min="400" max="1000" value="400" step="50" id="font-weight">
+    </div>
+</body>
+    <script src="./popup.js" type="module"></script>
+</html>
